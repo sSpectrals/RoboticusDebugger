@@ -1,0 +1,21 @@
+# Syntax Coloring Map For RoboticusDebugger
+RoboticusDebugger	KEYWORD1
+Sensor	KEYWORD1
+Vector	KEYWORD1
+RoboticusDebugger	KEYWORD2
+add	KEYWORD2
+addSensor	KEYWORD2
+addVector	KEYWORD2
+write	KEYWORD2
+isEmpty	KEYWORD2
+begin	KEYWORD2
+isTriggered	KEYWORD2
+name	KEYWORD3
+input	KEYWORD3
+operatorStr	KEYWORD3
+threshold	KEYWORD3
+layer	KEYWORD3
+x	KEYWORD3
+y	KEYWORD3
+rotation	KEYWORD3
+color	KEYWORD3

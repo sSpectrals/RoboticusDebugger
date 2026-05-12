@@ -4,7 +4,7 @@
 [![PlatformIO Registry](https://badges.registry.platformio.org/packages/your-username/library/roboticus-debugger.svg)](https://registry.platformio.org/libraries/your-username/roboticus-debugger)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-An Arduino library for sending sensor and vector data to the **Roboticus Debugger** desktop application — visualize your robot's sensors and state vectors in real-time.
+An Arduino library for sending sensor and vector data to the **Roboticus Data Visualiser** desktop application — visualize your robot's sensors and state vectors in real-time.
 
 ## ‼️ This library is meant to be used with the Roboticus Debugger application
 The repository can be found here: https://github.com/sSpectrals/Roboticus-Data-Visualiser

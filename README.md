@@ -2,7 +2,7 @@
 
 [![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue)](https://www.arduino.cc/reference/en/libraries/roboticus-debugger/)
 [![PlatformIO Registry](https://badges.registry.platformio.org/packages/your-username/library/roboticus-debugger.svg)](https://registry.platformio.org/libraries/your-username/roboticus-debugger)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 An Arduino library for sending sensor and vector data to the **Roboticus Data Visualiser** desktop application — visualize your robot's sensors and state vectors in real-time.
 

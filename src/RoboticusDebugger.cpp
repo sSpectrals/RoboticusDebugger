@@ -74,9 +74,9 @@ void RoboticusDebugger::add(const Vector &vector) {
   obj.add(vector.x);
   obj.add(vector.y);
 }
-void RoboticusDebugger::write() {
+size_t RoboticusDebugger::write() {
   if (!_hasData)
-    return;
+    return 0;
 
   _doc[2] = millis();
   _doc.shrinkToFit();
@@ -99,6 +99,7 @@ void RoboticusDebugger::write() {
   // Serial.println(msgSize);
 
   _hasData = false;
+  return msgSize + 3;
 }
 
 bool RoboticusDebugger::isEmpty() const { return !_hasData; }

@@ -114,8 +114,10 @@ public:
   /**
    * @brief Serializes the current frame to MsgPack and writes it to the
    *        output stream with a 0xFD frame header, then clears the frame.
+   * @return The total number of bytes written to the output stream, including
+   * the header and length bytes.
    */
-  void write();
+  size_t write();
 
   /**
    * @brief Returns true if no sensors or vectors have been added to the current

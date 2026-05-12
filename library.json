@@ -11,9 +11,7 @@
       {
           "name": "BasicUsage",
           "base": "examples/BasicUsage",
-          "files": [
-              ["BasicUsage.ino"]
-          ]
+          "files": ["BasicUsage.ino"]
       }
   ],
   "authors": [
@@ -24,7 +22,7 @@
       "maintainer": true
     }
   ],
-  "license": "GPLv3",
+  "license": "GPL-3.0-only",
   "homepage": "https://github.com/sSpectrals/Roboticus-Data-Visualiser",
   "dependencies": {
     "bblanchon/ArduinoJson": "^7.4.0"

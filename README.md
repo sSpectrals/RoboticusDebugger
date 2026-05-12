@@ -6,7 +6,7 @@
 
 An Arduino library for sending sensor and vector data to the **Roboticus Data Visualiser** desktop application — visualize your robot's sensors and state vectors in real-time.
 
-## ‼️ This library is meant to be used with the Roboticus Debugger application
+## ‼️ This library is meant to be used with the Roboticus Data Visualiser application
 The repository can be found here: https://github.com/sSpectrals/Roboticus-Data-Visualiser
 
 ## ✨ Features

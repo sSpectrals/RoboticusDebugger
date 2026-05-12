@@ -1,5 +1,5 @@
 {
-  "name": "Roboticus Debugger",
+  "name": "RoboticusDebugger",
   "version": "1.0.0",
   "description": "A library to send sensor and vector data to the Roboticus Data Visualizer app for real-time debugging and visualization. Use this library in your Arduino projects to easily visualize sensor states and vectors in real-time with the Roboticus Debugger app (https://github.com/sSpectrals/Roboticus-Data-Visualiser).",
   "keywords": "debugger, visualization, robotics, sensors, vectors, Roboticus",

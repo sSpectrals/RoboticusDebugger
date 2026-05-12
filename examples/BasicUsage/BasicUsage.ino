@@ -1,3 +1,15 @@
+/**
+ * Roboticus Debugger - Basic Usage Example
+ *
+ * This example demonstrates how to use the Roboticus Debugger library to send
+ * sensor and vector data to the Roboticus Data Visualizer app. It sends the
+ * data to the app for real-time visualization.
+ *
+ * Created by Edgar Mamikonian from Team Roboticus, May 2026.
+ *
+ * URL to the app: https://github.com/sSpectrals/Roboticus-Data-Visualiser
+ */
+
 #include "RoboticusDebugger.h"
 
 RoboticusDebugger debugger(Serial);
@@ -66,7 +78,6 @@ const int numVectors = sizeof(vectors) / sizeof(vectors[0]);
 
 void setup() { Serial.begin(115200); }
 
-
 int frame = 0;
 void loop() {
   // emulating changes in sensor inputs and vector rotations for demonstration
@@ -74,9 +85,9 @@ void loop() {
   frame++;
   for (int i = 0; i < numSensors; i++) {
     if (frame % 2 == 0) {
-      sensors[i].input = sensors[i].threshold + 1.0;   // trigger
+      sensors[i].input = sensors[i].threshold + 1.0; // trigger
     } else {
-      sensors[i].input = sensors[i].threshold - 1.0;   // not trigger
+      sensors[i].input = sensors[i].threshold - 1.0; // not trigger
     }
   }
   vectors[0].rotation += 1.0;

@@ -26,3 +26,10 @@ The repository can be found here: https://github.com/sSpectrals/Roboticus-Data-V
 ```ini
 lib_deps =
     sspectrals/Roboticus Debugger @ ^1.0.0
+```
+
+### Python
+1. Install `python/RoboticusDebugger.py`
+2. Install dependecies ```pip install pyserial msgpack```
+3. Install the `Example.py` if necessary
+
